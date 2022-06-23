@@ -236,7 +236,7 @@ props.put(&quot;project_pages&quot;, String.valueOf(pages));</stringProp>
             </elementProp>
             <elementProp name="perc_standalone_extension" elementType="Argument">
               <stringProp name="Argument.name">perc_standalone_extension</stringProp>
-              <stringProp name="Argument.value">${__P(perc_standalone_extension, 100)}</stringProp>
+              <stringProp name="Argument.value">${__P(perc_standalone_extension, 10000)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -9799,7 +9799,7 @@ vars.put(&quot;p_request_body&quot;, request_body.toString())
                 <hashTree/>
                 <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
                   <collectionProp name="Asserion.test_strings">
-                    <stringProp name="1220798875">&lt;span onclick=&quot;WGFeedback.chooseGrade(this)&quot; range=&quot;5&quot; required-comment=&quot;null&quot; uniform=&quot;true&quot; number=&quot;1&quot; title=&quot;For Test 1&quot; class=&quot;material-icons md-23  wg-star&quot;&gt;star&lt;/span&gt;&lt;span onclick=&quot;WGFeedback.chooseGrade(this)&quot; range=&quot;5&quot; required-comment=&quot;null&quot; uniform=&quot;true&quot; number=&quot;2&quot; title=&quot;For Test 2&quot; class=&quot;material-icons md-23  wg-star&quot;&gt;star&lt;/span&gt;&lt;span onclick=&quot;WGFeedback.chooseGrade(this)&quot; range=&quot;5&quot; required-comment=&quot;null&quot; uniform=&quot;true&quot; number=&quot;3&quot; title=&quot;For Test 3&quot; class=&quot;material-icons md-23  wg-star&quot;&gt;star&lt;/span&gt;&lt;span onclick=&quot;WGFeedback.chooseGrade(this)&quot; range=&quot;5&quot; required-comment=&quot;null&quot; uniform=&quot;true&quot; number=&quot;4&quot; title=&quot;For Test 4&quot; class=&quot;material-icons md-23  wg-star&quot;&gt;star&lt;/span&gt;&lt;span onclick=&quot;WGFeedback.chooseGrade(this)&quot; range=&quot;5&quot; required-comment=&quot;null&quot; uniform=&quot;true&quot; number=&quot;5&quot; title=&quot;For Test 5&quot; class=&quot;material-icons md-23  wg-star&quot;&gt;star&lt;/span&gt;</stringProp>
+                    <stringProp name="-582787979">&gt;&lt;label style=&quot;text-align: center;&quot;&gt;&lt;h4&gt;Please give your feedback on this issue completion&lt;/h4&gt;&lt;/label&gt;&lt;div current number=&quot;1159&quot; class=&quot;wg-question-group&quot;&gt;&lt;div class=&quot;feedback-group&quot;&gt;&lt;textarea rows=&quot;1&quot; class=&quot;wg-input-like-longlabel&quot; disabled&gt;Please rate your satisfaction with the issue.&lt;/textarea&gt;&lt;/div&gt;&lt;div class=&quot;wg-grade-list&quot;&gt;&lt;span onclick=&quot;WGFeedback.chooseGrade(this)&quot; range=&quot;4&quot; required-comment=&quot;null&quot; uniform=&quot;true&quot; number=&quot;1&quot; title=&quot;very bad&quot; class=&quot;material-icons md-23  wg-star&quot;&gt;star&lt;/span&gt;&lt;span onclick=&quot;WGFeedback.chooseGrade(this)&quot; range=&quot;4&quot; required-comment=&quot;null&quot; uniform=&quot;true&quot; number=&quot;2&quot; title=&quot;bad&quot; class=&quot;material-icons md-23  wg-star&quot;&gt;star&lt;/span&gt;&lt;span onclick=&quot;WGFeedback.chooseGrade(this)&quot; range=&quot;4&quot; required-comment=&quot;null&quot; uniform=&quot;true&quot; number=&quot;3&quot; title=&quot;not bad&quot; class=&quot;material-icons md-23  wg-star&quot;&gt;star&lt;/span&gt;&lt;span onclick=&quot;WGFeedback.chooseGrade(this)&quot; range=&quot;4&quot; required-comment=&quot;null&quot; uniform=&quot;true&quot; number=&quot;4&quot; title=&quot;good&quot; class=&quot;material-icons md-23  wg-star&quot;&gt;star&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id=&quot;wg-feedback-vote-container&quot; class=&quot;wg-feedback-vote-container&quot;&gt;&lt;h4&gt;Feedback comment:&lt;/h4&gt;&lt;textarea class=&quot;textarea wg-feedback-comment&quot; rows=&quot;3&quot; name=&quot;feedbackComment&quot; id=&quot;feedbackComment-AAANI-${app_specific_issue}&quot;&gt;&lt;/textarea&gt;&lt;div class=&quot;buttons-container&quot;&gt;&lt;button onclick=&quot;WGFeedback.saveFeedback()&quot; class=&quot;aui-button&quot; title=&quot;Send feedback for this Issue&quot;&gt;&lt;i style=&quot;margin-right: 5px&quot; class=&quot;material-icons mb-18&quot;&gt;thumb_up&lt;/i&gt;Send feedback&lt;/div&gt;</stringProp>
                   </collectionProp>
                   <stringProp name="Assertion.custom_message"></stringProp>
                   <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -9823,7 +9823,7 @@ vars.put(&quot;p_request_body&quot;, request_body.toString())
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                      <stringProp name="Argument.value">{&quot;issueKey&quot;:&quot;AAANI-${app_specific_issue}&quot;,&quot;comment&quot;:&quot;Thank you a lot&quot;,&quot;grades&quot;:[{&quot;questionId&quot;:&quot;23571&quot;,&quot;grade&quot;:&quot;5&quot;}],&quot;portal&quot;:false}</stringProp>
+                      <stringProp name="Argument.value">{&quot;issueKey&quot;:&quot;AAANI-${app_specific_issue}&quot;,&quot;comment&quot;:&quot;Thank you a lot&quot;,&quot;grades&quot;:[{&quot;questionId&quot;:&quot;1159&quot;,&quot;grade&quot;:&quot;4&quot;}],&quot;portal&quot;:false}</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                     </elementProp>
                   </collectionProp>
@@ -9853,29 +9853,30 @@ vars.put(&quot;p_request_body&quot;, request_body.toString())
                       <stringProp name="Header.name">X-AUSERNAME</stringProp>
                       <stringProp name="Header.value">admin</stringProp>
                     </elementProp>
-                    <elementProp name="X-Requested-With" elementType="Header">
-                      <stringProp name="Header.name">X-Requested-With</stringProp>
-                      <stringProp name="Header.value">XMLHttpRequest</stringProp>
-                    </elementProp>
                     <elementProp name="Accept-Encoding" elementType="Header">
                       <stringProp name="Header.name">Accept-Encoding</stringProp>
                       <stringProp name="Header.value">gzip, deflate</stringProp>
                     </elementProp>
                     <elementProp name="Accept" elementType="Header">
                       <stringProp name="Header.name">Accept</stringProp>
-                      <stringProp name="Header.value">*/*</stringProp>
+                      <stringProp name="Header.value">text/plain,*/*</stringProp>
+                    </elementProp>
+                    <elementProp name="" elementType="Header">
+                      <stringProp name="Header.name">Content-Type</stringProp>
+                      <stringProp name="Header.value">application/json</stringProp>
                     </elementProp>
                   </collectionProp>
                 </HeaderManager>
                 <hashTree/>
                 <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
                   <collectionProp name="Asserion.test_strings">
-                    <stringProp name="1220798875">&lt;span onclick=&quot;WGFeedback.chooseGrade(this)&quot; range=&quot;5&quot; required-comment=&quot;null&quot; uniform=&quot;true&quot; number=&quot;1&quot; title=&quot;For Test 1&quot; class=&quot;material-icons md-23  wg-star&quot;&gt;star&lt;/span&gt;&lt;span onclick=&quot;WGFeedback.chooseGrade(this)&quot; range=&quot;5&quot; required-comment=&quot;null&quot; uniform=&quot;true&quot; number=&quot;2&quot; title=&quot;For Test 2&quot; class=&quot;material-icons md-23  wg-star&quot;&gt;star&lt;/span&gt;&lt;span onclick=&quot;WGFeedback.chooseGrade(this)&quot; range=&quot;5&quot; required-comment=&quot;null&quot; uniform=&quot;true&quot; number=&quot;3&quot; title=&quot;For Test 3&quot; class=&quot;material-icons md-23  wg-star&quot;&gt;star&lt;/span&gt;&lt;span onclick=&quot;WGFeedback.chooseGrade(this)&quot; range=&quot;5&quot; required-comment=&quot;null&quot; uniform=&quot;true&quot; number=&quot;4&quot; title=&quot;For Test 4&quot; class=&quot;material-icons md-23  wg-star&quot;&gt;star&lt;/span&gt;&lt;span onclick=&quot;WGFeedback.chooseGrade(this)&quot; range=&quot;5&quot; required-comment=&quot;null&quot; uniform=&quot;true&quot; number=&quot;5&quot; title=&quot;For Test 5&quot; class=&quot;material-icons md-23  wg-star&quot;&gt;star&lt;/span&gt;</stringProp>
+                    <stringProp name="49586">200</stringProp>
                   </collectionProp>
                   <stringProp name="Assertion.custom_message"></stringProp>
-                  <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+                  <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
                   <boolProp name="Assertion.assume_success">false</boolProp>
-                  <intProp name="Assertion.test_type">16</intProp>
+                  <intProp name="Assertion.test_type">8</intProp>
+                  <stringProp name="Assertion.scope">all</stringProp>
                 </ResponseAssertion>
                 <hashTree/>
                 <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="x_atl_token" enabled="true">
